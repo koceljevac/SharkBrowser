@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_back"
+        android:icon="@drawable/ic_round_arrow_back_ios_24"
+        android:iconTint="@color/black"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/ic_forward"
+        android:icon="@drawable/ic_round_arrow_forward_ios_24"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/ic_refresh"
+        android:icon="@drawable/ic_round_refresh_24"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/ic_tabs"
+        android:icon="@drawable/ic_round_check_box_outline_blank_24"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/ic_menu"
+        android:icon="@drawable/ic_round_menu_24"
+        android:title="">
+    </item>
+
+</menu>
