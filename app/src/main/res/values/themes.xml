@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SharkWeb" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/status_bar_gray</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <!-- Text Size -->
+        <item name="android:textSize">13dp</item>
+        <!-- Query Text Color -->
+        <item name="android:textColorPrimary">@color/status_bar_gray</item>
+        <!-- Hint Color -->
+        <item name="android:textColorHint">@color/status_bar_gray</item>
+        <!-- Icon Color -->
+        <item name="android:tint">@color/status_bar_gray</item>
+    </style>
+</resources>
